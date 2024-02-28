@@ -14,7 +14,7 @@ public class Base {
 	public static WebDriver driver;
 	public static HttpURLConnection connection;
 
-	public static String urlToCheck = "http://192.168.1000.59/vspace/login";
+	public static String urlToCheck = "http://192.168.100.59/vspace/login";
 
 	public static void initialise() {
 		ChromeOptions options = new ChromeOptions();

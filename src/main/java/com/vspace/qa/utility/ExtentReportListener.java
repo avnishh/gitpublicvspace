@@ -1,6 +1,11 @@
 package com.vspace.qa.utility;
 
+import java.io.File;
 import java.io.IOException;
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -24,8 +29,9 @@ public class ExtentReportListener extends Base implements ITestListener{
 	public static ExtentTest test;
 	static String testDataValue;
 	//Utilities util;
-
-
+	String projectDirectory=System.getProperty("user.dir");
+	DateTimeFormatter dtf;
+	LocalDateTime now;
 	/*
 	 * private static ThreadLocal<String> testData = new ThreadLocal<>();
 	 * 
@@ -35,8 +41,36 @@ public class ExtentReportListener extends Base implements ITestListener{
 	 */
 
 	public void configureReport() {
+		String reportFileLocation = null;
+		String parentDirectoryPath = projectDirectory+"\\extentreport\\";
+		dtf = DateTimeFormatter.ofPattern("d MMM uuuu HH_mm_ss");
+		now = LocalDateTime.now();
+		//System.out.println(now.toLocalDate());
+		System.out.println(dtf.format(now));
 
-		spark = new ExtentSparkReporter(System.getProperty("user.dir")+"\\extentreport\\report.html");
+		String folderName = "Automation Report "+now.toLocalDate();
+		File parentDirectory = new File(parentDirectoryPath);
+		File newFolder = new File(parentDirectory, folderName);
+
+		if (!newFolder.exists()) {
+			//System.out.println("i am in parent if");
+			//System.out.println(reportFileLocation);
+			boolean created = newFolder.mkdir();
+
+			if (created) {
+				System.out.println("Folder created successfully.");
+			} else {
+				System.out.println("Failed to create folder.");
+			}
+		} else {
+			System.out.println("Folder already exists.");
+		}
+		
+		if(newFolder.exists()) {
+		reportFileLocation=projectDirectory+"\\extentreport\\"+folderName+"\\"+dtf.format(now)+" Report.html";
+		}
+
+		spark = new ExtentSparkReporter(reportFileLocation);
 		spark.config().setDocumentTitle("Vspace Automation Report");
 		spark.config().setReportName("Automation Test execution report");
 		spark.config().setTheme(Theme.STANDARD);
@@ -74,14 +108,14 @@ public class ExtentReportListener extends Base implements ITestListener{
 		//String td = (String) Result.getAttribute("td");
 		//String er = (String) Result.getAttribute("er");
 		Utilities.getScreenShot(Result.getName());
-		
-		
+
+
 		String er = null;
 		String td = null;
 		String[] arr = Result.getName().split("_");
 		System.out.println(arr[0]);
 		int row=Utilities.getRowNum(arr[0]);
-        
+
 		try {
 			er= Utilities.readExcelCellData(row, 7);
 			td= Utilities.readExcelCellData(row, 2);
@@ -90,9 +124,9 @@ public class ExtentReportListener extends Base implements ITestListener{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		test = extent.createTest(Result.getName(),td);
-		
+
 
 		test.log(Status.FAIL, MarkupHelper.createLabel(er,ExtentColor.RED));
 		//test.fail(MediaEntityBuilder.createScreenCaptureFromPath(System.getProperty("user.dir")+"\\Screenshots\\"+Result.getName()+".png", "provide info").build());
@@ -111,7 +145,7 @@ public class ExtentReportListener extends Base implements ITestListener{
 		String[] arr = Result.getName().split("_");
 		System.out.println(arr[0]);
 		int row=Utilities.getRowNum(arr[0]);
-        
+
 		try {
 			er= Utilities.readExcelCellData(row, 7);
 			td= Utilities.readExcelCellData(row, 2);
@@ -120,7 +154,7 @@ public class ExtentReportListener extends Base implements ITestListener{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		test = extent.createTest(Result.getName(),td);
 		test.log(Status.SKIP, MarkupHelper.createLabel(er,ExtentColor.ORANGE));
 		/*if(testDataValue.equals("Login functionality not working")) {
@@ -167,14 +201,14 @@ public class ExtentReportListener extends Base implements ITestListener{
 	public void onTestSuccess(ITestResult Result)					
 	{		
 		//System.out.println("The name of the testcase passed is :"+Result.getName());
-	//	String td = (String) Result.getAttribute("td");
-		
+		//	String td = (String) Result.getAttribute("td");
+
 		String er = null;
 		String td = null;
 		String[] arr = Result.getName().split("_");
 		System.out.println(arr[0]);
 		int row=Utilities.getRowNum(arr[0]);
-        
+
 		try {
 			er= Utilities.readExcelCellData(row, 7);
 			td= Utilities.readExcelCellData(row, 2);
@@ -183,7 +217,7 @@ public class ExtentReportListener extends Base implements ITestListener{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		test = extent.createTest(Result.getName(),td);
 
 		//test.log(Status.PASS, MarkupHelper.createLabel("Name of the passed testcase is : "+Result.getName(),ExtentColor.GREEN));
