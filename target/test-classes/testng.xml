@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="vspace_TestSuite">
+
+<listeners>
+<listener class-name="com.vspace.qa.utility.ExtentReportListener"/>
+</listeners>
+
+	<test name="vspace_TestProject">
+		<classes>
+			<class name = "com.vspace.qa.TestCases.LoginTest" />
+			<class name = "com.vspace.qa.TestCases.OpportunityListingTest" />
+			
+		</classes>	
+	</test> 
+	
+</suite> <!-- Suite -->

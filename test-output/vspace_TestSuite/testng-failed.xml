@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [vspace_TestSuite]">
+  <listeners>
+    <listener class-name="com.vspace.qa.utility.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="vspace_TestProject(failed)">
+    <classes>
+      <class name="com.vspace.qa.TestCases.OpportunityListingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="TC008_oppListcountChck"/>
+          <include name="TC007_opportunityBtn_clcksuccess"/>
+        </methods>
+      </class> <!-- com.vspace.qa.TestCases.OpportunityListingTest -->
+      <class name="com.vspace.qa.TestCases.LoginTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="TC005_chckblankpassword_LoginTest"/>
+          <include name="TC001_chckvldcredential_LoginTest"/>
+          <include name="TC002_chckInvldEmail_LoginTest"/>
+          <include name="TC004_chckblankemail_LoginTest"/>
+          <include name="tearDown"/>
+          <include name="TC003_chckInvldPasswd_LoginTest"/>
+          <include name="TC006_chckblankemailPassws_LoginTest"/>
+        </methods>
+      </class> <!-- com.vspace.qa.TestCases.LoginTest -->
+    </classes>
+  </test> <!-- vspace_TestProject(failed) -->
+</suite> <!-- Failed suite [vspace_TestSuite] -->
