@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
+import org.testng.*;
 
 public class Base {
 
@@ -34,9 +35,6 @@ public class Base {
 	}
 
 	public static Boolean  isWebsiteReachable() {
-
-
-		//String urlToCheck = "https://www.godvsgffrffogle.com/";
 
 		try {
 			URL url = new URL(urlToCheck);

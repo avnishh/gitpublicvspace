@@ -116,14 +116,8 @@ public class ExtentReportListener extends Base implements ITestListener{
 		System.out.println(arr[0]);
 		int row=Utilities.getRowNum(arr[0]);
 
-		try {
-			er= Utilities.readExcelCellData(row, 7);
-			td= Utilities.readExcelCellData(row, 2);
-
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		er= Utilities.readExcelCellData("data",row, 7);
+		td= Utilities.readExcelCellData("data",row, 2);
 
 		test = extent.createTest(Result.getName(),td);
 
@@ -146,14 +140,8 @@ public class ExtentReportListener extends Base implements ITestListener{
 		System.out.println(arr[0]);
 		int row=Utilities.getRowNum(arr[0]);
 
-		try {
-			er= Utilities.readExcelCellData(row, 7);
-			td= Utilities.readExcelCellData(row, 2);
-
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		er= Utilities.readExcelCellData("data",row, 7);
+		td= Utilities.readExcelCellData("data",row, 2);
 
 		test = extent.createTest(Result.getName(),td);
 		test.log(Status.SKIP, MarkupHelper.createLabel(er,ExtentColor.ORANGE));
@@ -209,14 +197,8 @@ public class ExtentReportListener extends Base implements ITestListener{
 		System.out.println(arr[0]);
 		int row=Utilities.getRowNum(arr[0]);
 
-		try {
-			er= Utilities.readExcelCellData(row, 7);
-			td= Utilities.readExcelCellData(row, 2);
-
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		er= Utilities.readExcelCellData("data",row, 7);
+		td= Utilities.readExcelCellData("data",row, 2);
 
 		test = extent.createTest(Result.getName(),td);
 

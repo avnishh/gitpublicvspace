@@ -1,111 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T17:36:53 IST" name="vspace_TestSuite" finished-at="2024-02-28T17:37:23 IST" duration-ms="29697">
+  <suite started-at="2024-02-29T13:15:48 IST" name="Default suite" finished-at="2024-02-29T13:15:59 IST" duration-ms="11515">
     <groups>
     </groups>
-    <test started-at="2024-02-28T17:36:53 IST" name="vspace_TestProject" finished-at="2024-02-28T17:37:23 IST" duration-ms="29697">
-      <class name="com.vspace.qa.TestCases.LoginTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:36:53 IST" name="initialization" finished-at="2024-02-28T17:36:56 IST" duration-ms="2605" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="TC003_chckInvldPasswd_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:36:56 IST" name="TC003_chckInvldPasswd_LoginTest" finished-at="2024-02-28T17:36:57 IST" duration-ms="826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC003_chckInvldPasswd_LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:36:58 IST" name="tearDown" finished-at="2024-02-28T17:36:58 IST" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:36:58 IST" name="initialization" finished-at="2024-02-28T17:37:00 IST" duration-ms="2066" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="TC001_chckvldcredential_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:00 IST" name="TC001_chckvldcredential_LoginTest" finished-at="2024-02-28T17:37:01 IST" duration-ms="1538" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_chckvldcredential_LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:01 IST" name="tearDown" finished-at="2024-02-28T17:37:01 IST" duration-ms="109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:01 IST" name="initialization" finished-at="2024-02-28T17:37:04 IST" duration-ms="2397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="TC002_chckInvldEmail_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:04 IST" name="TC002_chckInvldEmail_LoginTest" finished-at="2024-02-28T17:37:05 IST" duration-ms="880" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC002_chckInvldEmail_LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:05 IST" name="tearDown" finished-at="2024-02-28T17:37:05 IST" duration-ms="100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:05 IST" name="initialization" finished-at="2024-02-28T17:37:07 IST" duration-ms="2022" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="TC005_chckblankpassword_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:07 IST" name="TC005_chckblankpassword_LoginTest" finished-at="2024-02-28T17:37:07 IST" duration-ms="403" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC005_chckblankpassword_LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:07 IST" name="tearDown" finished-at="2024-02-28T17:37:07 IST" duration-ms="103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:07 IST" name="initialization" finished-at="2024-02-28T17:37:09 IST" duration-ms="2011" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="TC006_chckblankemailPassws_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:09 IST" name="TC006_chckblankemailPassws_LoginTest" finished-at="2024-02-28T17:37:10 IST" duration-ms="386" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC006_chckblankemailPassws_LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:10 IST" name="tearDown" finished-at="2024-02-28T17:37:10 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:10 IST" name="initialization" finished-at="2024-02-28T17:37:12 IST" duration-ms="1948" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method signature="TC004_chckblankemail_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:12 IST" name="TC004_chckblankemail_LoginTest" finished-at="2024-02-28T17:37:12 IST" depends-on-methods="com.vspace.qa.TestCases.LoginTest.TC003_chckInvldPasswd_LoginTest" duration-ms="394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC004_chckblankemail_LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.LoginTest@618425b5]" started-at="2024-02-28T17:37:12 IST" name="tearDown" finished-at="2024-02-28T17:37:13 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.vspace.qa.TestCases.LoginTest -->
+    <test started-at="2024-02-29T13:15:48 IST" name="Default test" finished-at="2024-02-29T13:15:59 IST" duration-ms="11515">
       <class name="com.vspace.qa.TestCases.OpportunityListingTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@61001b64]" started-at="2024-02-28T17:37:13 IST" name="initialization" finished-at="2024-02-28T17:37:16 IST" duration-ms="3295" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@25fb8912]" started-at="2024-02-29T13:15:48 IST" name="initialization" finished-at="2024-02-29T13:15:52 IST" duration-ms="4540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="TC007_opportunityBtn_clcksuccess()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@61001b64]" started-at="2024-02-28T17:37:16 IST" name="TC007_opportunityBtn_clcksuccess" finished-at="2024-02-28T17:37:17 IST" duration-ms="1610" status="PASS">
+        <test-method signature="TC007_opportunityBtn_clcksuccess()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@25fb8912]" started-at="2024-02-29T13:15:52 IST" name="TC007_opportunityBtn_clcksuccess" finished-at="2024-02-29T13:15:53 IST" duration-ms="1136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC007_opportunityBtn_clcksuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@61001b64]" started-at="2024-02-28T17:37:17 IST" name="tearDown" finished-at="2024-02-28T17:37:18 IST" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@25fb8912]" started-at="2024-02-29T13:15:53 IST" name="tearDown" finished-at="2024-02-29T13:15:53 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@61001b64]" started-at="2024-02-28T17:37:18 IST" name="initialization" finished-at="2024-02-28T17:37:21 IST" duration-ms="3613" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@25fb8912]" started-at="2024-02-29T13:15:53 IST" name="initialization" finished-at="2024-02-29T13:15:57 IST" duration-ms="3867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="TC008_oppListcountChck()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@61001b64]" started-at="2024-02-28T17:37:21 IST" name="TC008_oppListcountChck" finished-at="2024-02-28T17:37:23 IST" duration-ms="1549" status="PASS">
+        <test-method signature="TC008_oppListcountChck()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@25fb8912]" started-at="2024-02-29T13:15:57 IST" name="TC008_oppListcountChck" finished-at="2024-02-29T13:15:59 IST" duration-ms="1727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC008_oppListcountChck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@61001b64]" started-at="2024-02-28T17:37:23 IST" name="tearDown" finished-at="2024-02-28T17:37:23 IST" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.OpportunityListingTest@25fb8912]" started-at="2024-02-29T13:15:59 IST" name="tearDown" finished-at="2024-02-29T13:15:59 IST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.vspace.qa.TestCases.OpportunityListingTest -->
-    </test> <!-- vspace_TestProject -->
-  </suite> <!-- vspace_TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
