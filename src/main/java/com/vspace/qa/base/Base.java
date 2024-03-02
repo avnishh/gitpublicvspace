@@ -1,36 +1,54 @@
 package com.vspace.qa.base;
 
 import java.net.HttpURLConnection;
+import com.vspace.qa.utility.WebEventlistener;
 import java.net.URL;
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.testng.Assert;
+import jdk.internal.org.jline.utils.Log;
+
 import org.testng.*;
 
 public class Base {
 
 	public static WebDriver driver;
 	public static HttpURLConnection connection;
-
+	//public static Logger logger;
 	public static String urlToCheck = "http://192.168.100.59/vspace/login";
+	public static WebEventlistener listener;
 
 	public static void initialise() {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
-		driver= new ChromeDriver(options);
+		WebDriver original = new ChromeDriver(options);
+		  listener = new WebEventlistener();
+	        EventFiringDecorator<WebDriver> decorator = new EventFiringDecorator<>(listener); //Pass listener to constructor
+	         driver = decorator.decorate(original);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		
 		if (isWebsiteReachable()) {
 			driver.get(urlToCheck);
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		}
 		else 
 		{
 			Assert.fail();
 		}
+
+	}
+	
+	public Base() {
+		
+		//logger = LogManager.getLogger(Base.class);
+		
 
 	}
 
@@ -40,6 +58,7 @@ public class Base {
 			URL url = new URL(urlToCheck);
 			connection = (HttpURLConnection) url.openConnection();
 			connection.setRequestMethod("HEAD");
+			//logger.info("hi i am logger");
 			connection.connect();
 
 			int responseCode = connection.getResponseCode();

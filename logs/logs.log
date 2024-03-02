@@ -1,0 +1,200 @@
+[INFO ] 2024-02-29 16:49:44.113 [main] Base - print loggs
+[INFO ] 2024-02-29 16:49:44.295 [main] Base - print loggs
+[INFO ] 2024-02-29 16:49:44.447 [main] Base - print loggs
+[INFO ] 2024-02-29 16:49:49.624 [main] Base - hi i am logger initialise
+[INFO ] 2024-02-29 16:49:49.624 [main] Base - hi i am logger
+[INFO ] 2024-02-29 16:49:50.723 [main] Base - print loggs
+[INFO ] 2024-02-29 16:49:55.991 [main] Base - hi i am logger initialise
+[INFO ] 2024-02-29 16:49:55.992 [main] Base - hi i am logger
+[INFO ] 2024-02-29 16:49:56.981 [main] Base - print loggs
+[INFO ] 2024-02-29 16:50:01.997 [main] Base - hi i am logger initialise
+[INFO ] 2024-02-29 16:50:01.997 [main] Base - hi i am logger
+[INFO ] 2024-02-29 16:50:03.739 [main] Base - print loggs
+[INFO ] 2024-02-29 16:50:08.365 [main] Base - hi i am logger initialise
+[INFO ] 2024-02-29 16:50:08.365 [main] Base - hi i am logger
+[INFO ] 2024-02-29 16:50:09.560 [main] Base - print loggs
+[INFO ] 2024-02-29 16:50:13.359 [main] Base - hi i am logger initialise
+[INFO ] 2024-02-29 16:50:13.359 [main] Base - hi i am logger
+[INFO ] 2024-02-29 16:50:14.423 [main] Base - print loggs
+[INFO ] 2024-02-29 16:50:17.849 [main] Base - hi i am logger initialise
+[INFO ] 2024-02-29 16:50:17.849 [main] Base - hi i am logger
+[INFO ] 2024-02-29 16:50:18.757 [main] Base - print loggs
+[INFO ] 2024-02-29 16:50:22.045 [main] Base - hi i am logger initialise
+[INFO ] 2024-02-29 16:50:22.045 [main] Base - hi i am logger
+[INFO ] 2024-02-29 16:50:22.406 [main] Base - print loggs
+[INFO ] 2024-02-29 16:50:22.407 [main] Base - print loggs
+[INFO ] 2024-02-29 16:50:30.960 [main] Base - hi i am logger initialise
+[INFO ] 2024-02-29 16:50:30.960 [main] Base - hi i am logger
+[INFO ] 2024-02-29 16:50:31.809 [main] Base - print loggs
+[INFO ] 2024-02-29 16:50:31.810 [main] Base - print loggs
+[INFO ] 2024-03-01 10:02:26.341 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:02:33.098 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:02:40.179 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:02:44.746 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:02:48.000 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:02:51.475 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:02:54.426 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:03:01.969 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:05:44.604 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:05:49.203 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:05:55.721 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:05:59.094 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:06:04.828 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:06:07.568 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:06:10.858 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:06:17.565 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:37:34.957 [TestNG-test=vspace_TestProject-2] Base - hi i am logger
+[INFO ] 2024-03-01 10:37:34.957 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:37:42.012 [TestNG-test=vspace_TestProject-2] Base - hi i am logger
+[INFO ] 2024-03-01 10:37:42.503 [TestNG-test=vspace_TestProject-2] Base - hi i am logger
+[INFO ] 2024-03-01 10:37:43.871 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:37:48.440 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:37:51.798 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:37:54.811 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:37:56.918 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:41:09.146 [TestNG-test=vspace_TestProject-2] Base - hi i am logger
+[INFO ] 2024-03-01 10:41:09.146 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:41:16.014 [TestNG-test=vspace_TestProject-2] Base - hi i am logger
+[INFO ] 2024-03-01 10:41:16.293 [TestNG-test=vspace_TestProject-2] Base - hi i am logger
+[INFO ] 2024-03-01 10:41:17.694 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:41:21.960 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:41:25.619 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:41:28.433 [TestNG-test=vspace_TestProject-1] Base - hi i am logger
+[INFO ] 2024-03-01 10:41:30.023 [TestNG-test=vspace_TestProject-3] Base - hi i am logger
+[INFO ] 2024-03-01 10:47:41.400 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:47:45.672 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:47:50.376 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:47:53.695 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:47:56.687 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:47:59.519 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:48:02.468 [main] Base - hi i am logger
+[INFO ] 2024-03-01 10:48:08.601 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:36:01.018 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:36:06.246 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:36:11.102 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:36:14.851 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:36:18.028 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:36:21.528 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:36:25.207 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:36:32.471 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:41:14.206 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:41:18.420 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:41:22.667 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:41:26.181 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:41:29.054 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:41:31.690 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:41:34.589 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:41:40.097 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:54:00.389 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:54:06.196 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:54:11.723 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:54:16.297 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:54:20.281 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:54:24.304 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:54:27.570 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:54:36.381 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:57:51.131 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:57:55.971 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:58:01.173 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:58:05.252 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:58:08.781 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:58:11.835 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:58:17.172 [main] Base - hi i am logger
+[INFO ] 2024-03-01 11:58:23.706 [main] Base - hi i am logger
+[INFO ] 2024-03-01 12:03:41.611 [main] Base - hi i am logger
+[INFO ] 2024-03-01 12:03:46.668 [main] Base - hi i am logger
+[INFO ] 2024-03-01 12:03:51.083 [main] Base - hi i am logger
+[INFO ] 2024-03-01 12:03:56.536 [main] Base - hi i am logger
+[INFO ] 2024-03-01 12:03:59.777 [main] Base - hi i am logger
+[INFO ] 2024-03-01 12:04:02.996 [main] Base - hi i am logger
+[INFO ] 2024-03-01 14:26:24.602 [main] Base - hi i am logger
+[INFO ] 2024-03-01 14:26:31.133 [main] Base - hi i am logger
+[INFO ] 2024-03-01 14:28:55.690 [main] Base - hi i am logger
+[INFO ] 2024-03-01 14:28:59.448 [main] Base - hi i am logger
+[INFO ] 2024-03-01 14:29:03.376 [main] Base - hi i am logger
+[INFO ] 2024-03-01 14:31:24.083 [main] Base - hi i am logger
+[INFO ] 2024-03-01 14:31:27.848 [main] Base - hi i am logger
+[INFO ] 2024-03-01 14:35:08.377 [main] Base - hi i am logger
+[INFO ] 2024-03-01 14:35:12.272 [main] Base - hi i am logger
+[INFO ] 2024-03-01 15:56:18.762 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:21:14.655 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:21:20.727 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:21:24.397 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:21:27.670 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:21:30.189 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:21:32.699 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:21:35.492 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:21:41.037 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:23:40.266 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:23:43.849 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:23:47.464 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:23:50.424 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:23:52.935 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:23:55.559 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:23:58.253 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:24:02.921 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:25:38.514 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:25:42.431 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:25:46.175 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:28:20.753 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:28:24.295 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:28:28.468 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:28:31.312 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:28:33.789 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:28:36.329 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:30:09.173 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:30:12.650 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:31:20.769 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:31:24.238 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:31:28.154 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:31:31.131 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:31:33.632 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:31:36.160 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:34:25.082 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:34:28.694 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:34:32.512 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:34:35.404 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:34:37.908 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:34:58.506 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:35:02.327 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:35:06.243 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:35:09.024 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:35:11.522 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:36:14.317 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:36:18.198 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:36:21.861 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:36:25.089 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:36:27.640 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:36:30.193 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:36:32.694 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:36:37.495 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:41:42.263 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:41:45.826 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:41:49.357 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:41:52.612 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:41:55.137 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:41:57.706 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:42:00.197 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:42:05.219 [main] Base - hi i am logger
+[INFO ] 2024-03-01 17:48:47.774 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 17:48:51.748 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 17:48:55.548 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 17:48:58.512 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 17:49:01.261 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 17:49:03.814 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 17:49:06.466 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:01:50.904 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:01:54.829 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:01:59.342 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:02:29.858 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:02:33.794 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:02:39.395 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:02:42.228 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:02:45.576 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:02:48.196 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:02:50.916 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:02:56.281 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:05:30.936 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:05:34.467 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:05:38.306 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+[INFO ] 2024-03-01 18:05:41.457 [main] WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.

@@ -46,7 +46,7 @@ public class ExtentReportListener extends Base implements ITestListener{
 		dtf = DateTimeFormatter.ofPattern("d MMM uuuu HH_mm_ss");
 		now = LocalDateTime.now();
 		//System.out.println(now.toLocalDate());
-		System.out.println(dtf.format(now));
+		//System.out.println(dtf.format(now));
 
 		String folderName = "Automation Report "+now.toLocalDate();
 		File parentDirectory = new File(parentDirectoryPath);
@@ -58,12 +58,12 @@ public class ExtentReportListener extends Base implements ITestListener{
 			boolean created = newFolder.mkdir();
 
 			if (created) {
-				System.out.println("Folder created successfully.");
+				//System.out.println("Folder created successfully.");
 			} else {
-				System.out.println("Failed to create folder.");
+				//System.out.println("Failed to create folder.");
 			}
 		} else {
-			System.out.println("Folder already exists.");
+			//System.out.println("Folder already exists.");
 		}
 		
 		if(newFolder.exists()) {
@@ -194,7 +194,7 @@ public class ExtentReportListener extends Base implements ITestListener{
 		String er = null;
 		String td = null;
 		String[] arr = Result.getName().split("_");
-		System.out.println(arr[0]);
+		//System.out.println(arr[0]);
 		int row=Utilities.getRowNum(arr[0]);
 
 		er= Utilities.readExcelCellData("data",row, 7);

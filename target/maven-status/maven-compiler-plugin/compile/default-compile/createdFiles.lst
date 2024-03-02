@@ -1,5 +1,6 @@
 com\vspace\qa\utility\ExtentReportListener.class
-com\vspace\qa\module\OpportunityListing.class
 com\vspace\qa\base\Base.class
 com\vspace\qa\module\Login.class
 com\vspace\qa\utility\Utilities.class
+com\vspace\qa\module\OpportunityListing.class
+com\vspace\qa\utility\WebEventlistener.class
