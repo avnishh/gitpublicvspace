@@ -28,6 +28,7 @@ import org.openqa.selenium.support.events.WebDriverListener;
 public class WebEventlistener implements WebDriverListener {
 	
 	public static Logger logger;
+	//ExtentReportListener testlistener;
 	
 	
 	public WebEventlistener() {
@@ -38,12 +39,11 @@ public class WebEventlistener implements WebDriverListener {
 
     @Override
     public void beforeAnyWebDriverCall(WebDriver driver, Method method, Object[] args) {
-        //System.out.println("Browser Opened.");
     }
 
     @Override
     public void afterGet(WebDriver driver, String url) {
-        System.out.println("Navigated to: "+url+" Successfully.");
+       // logger.info("Navigated to: "+url+" Successfully.");
         logger.info("Navigated to: "+url+" Successfully.");
     }
 
@@ -63,6 +63,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void onError(Object target, Method method, Object[] args, InvocationTargetException e) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.onError(target, method, args, e);
+		logger.info(e+ ": exception occured");
 	}
 
 	@Override
@@ -75,7 +76,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void beforeGet(WebDriver driver, String url) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.beforeGet(driver, url);
-		System.out.println("Browser Opened.");
+		logger.info("Browser Opened.");
 	}
 
 	@Override
@@ -112,7 +113,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterFindElement(WebDriver driver, By locator, WebElement result) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterFindElement(driver, locator, result);
-		//System.out.println("webelement found using "+ result);
+		//logger.info("webelement found using "+ result);
 	}
 
 	@Override
@@ -155,14 +156,14 @@ public class WebEventlistener implements WebDriverListener {
 	public void beforeQuit(WebDriver driver) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.beforeQuit(driver);
-		//System.out.println("browser is going to quit");
+		//logger.info("browser is going to quit");
 	}
 
 	@Override
 	public void afterQuit(WebDriver driver) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterQuit(driver);
-		System.out.println("Browser Closed \n***********************************************************");
+		logger.info("Browser Closed \n***********************************************************");
 
 	}
 
@@ -260,7 +261,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterClick(WebElement element) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterClick(element);
-		System.out.println(element +": is clicked succesfully");
+		logger.info(element +": is clicked succesfully");
 	}
 
 	@Override
@@ -285,8 +286,8 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterSendKeys(WebElement element, CharSequence... keysToSend) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterSendKeys(element, keysToSend);
-	//	System.out.println("Value passed in " + element.toString() + " is "+keysToSend);
-		System.out.println("Value passed in " + element + " is "+keysToSend.toString());
+	//	logger.info("Value passed in " + element.toString() + " is "+keysToSend);
+		logger.info("Value passed in " + element + " is "+keysToSend.toString());
 		
 	}
 
@@ -349,7 +350,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterIsEnabled(WebElement element, boolean result) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterIsEnabled(element, result);
-		System.out.println(element+" : ");
+		logger.info(element+" : ");
 	}
 
 	@Override
@@ -399,7 +400,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterIsDisplayed(WebElement element, boolean result) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterIsDisplayed(element, result);
-		System.out.println(element+": is displayed successfully.");
+		logger.info(element+": is displayed successfully.");
 	}
 
 	@Override
@@ -484,7 +485,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterBack(Navigation navigation) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterBack(navigation);
-		System.out.println("The webpage is navigated to previous page.");
+		logger.info("The webpage is navigated to previous page.");
 	}
 
 	@Override
@@ -509,7 +510,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterRefresh(Navigation navigation) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterRefresh(navigation);
-		System.out.println("The webpage is refreshed.");
+		logger.info("The webpage is refreshed.");
 	}
 
 	@Override
@@ -534,7 +535,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterAccept(Alert alert) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterAccept(alert);
-		System.out.println(alert+" is accepted.");
+		logger.info(alert+" is accepted.");
 	}
 
 	@Override
@@ -547,7 +548,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterDismiss(Alert alert) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterDismiss(alert);
-		System.out.println(alert+" is dismissed.");
+		logger.info(alert+" is dismissed.");
 	}
 
 	@Override
@@ -560,7 +561,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterGetText(Alert alert, String result) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterGetText(alert, result);
-		System.out.println("The text of alert is:"+ result);
+		logger.info("The text of alert is:"+ result);
 	}
 
 	@Override
@@ -573,7 +574,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterSendKeys(Alert alert, String text) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterSendKeys(alert, text);
-		System.out.println("The value provide in alert is :"+text);
+		logger.info("The value provide in alert is :"+text);
 	}
 
 	@Override
@@ -682,7 +683,7 @@ public class WebEventlistener implements WebDriverListener {
 	public void afterImplicitlyWait(Timeouts timeouts, Duration duration) {
 		// TODO Auto-generated method stub
 		WebDriverListener.super.afterImplicitlyWait(timeouts, duration);
-		System.out.println("Script waited for :"+duration +": implicit wait");
+		logger.info("Script waited for :"+duration +": implicit wait");
 	}
 
 	@Override

@@ -32,6 +32,7 @@ public class ExtentReportListener extends Base implements ITestListener{
 	String projectDirectory=System.getProperty("user.dir");
 	DateTimeFormatter dtf;
 	LocalDateTime now;
+	WebEventlistener eventListener;
 	/*
 	 * private static ThreadLocal<String> testData = new ThreadLocal<>();
 	 * 
@@ -39,6 +40,12 @@ public class ExtentReportListener extends Base implements ITestListener{
 	 * testDataValue = testData.get();
 	 * //System.out.println("Test Data in onTestSkipped: " + testDataValue); }
 	 */
+	
+	
+	public ExtentReportListener() {
+		
+		eventListener = new WebEventlistener();
+	}
 
 	public void configureReport() {
 		String reportFileLocation = null;
@@ -76,7 +83,10 @@ public class ExtentReportListener extends Base implements ITestListener{
 		spark.config().setTheme(Theme.STANDARD);
 		//spark.config().setTimeStampFormat("");
 		extent = new ExtentReports();
+		extent.setSystemInfo("os", "win7");
 		extent.attachReporter(spark);
+		
+
 		//System.out.println("i am in before test");
 
 
@@ -109,6 +119,7 @@ public class ExtentReportListener extends Base implements ITestListener{
 		//String er = (String) Result.getAttribute("er");
 		Utilities.getScreenShot(Result.getName());
 
+		Throwable t = new RuntimeException("A runtime exception");
 
 		String er = null;
 		String td = null;
@@ -125,7 +136,10 @@ public class ExtentReportListener extends Base implements ITestListener{
 		test.log(Status.FAIL, MarkupHelper.createLabel(er,ExtentColor.RED));
 		//test.fail(MediaEntityBuilder.createScreenCaptureFromPath(System.getProperty("user.dir")+"\\Screenshots\\"+Result.getName()+".png", "provide info").build());
 		test.log(Status.INFO,MediaEntityBuilder.createScreenCaptureFromPath(System.getProperty("user.dir")+"\\Screenshots\\"+Result.getName()+".png").build());
+		test.log(Status.FAIL, t);
 
+		WebEventlistener.logger.info(Result.getName() + " : is Failed.");
+		
 
 	}		
 
@@ -168,7 +182,9 @@ public class ExtentReportListener extends Base implements ITestListener{
 		else {
 			test.info(MarkupHelper.createLabel("Some error occured.", ExtentColor.GREY));
 		}
+		WebEventlistener.logger.info(Result.getName() + " : is Skipped.");
 	}
+	
 
 
 	//String testDataValue = testData.get();
@@ -205,6 +221,7 @@ public class ExtentReportListener extends Base implements ITestListener{
 		//test.log(Status.PASS, MarkupHelper.createLabel("Name of the passed testcase is : "+Result.getName(),ExtentColor.GREEN));
 		test.assignCategory("Smoke Suite");
 		test.log(Status.PASS, MarkupHelper.createLabel(er,ExtentColor.GREEN));
+		WebEventlistener.logger.info(Result.getName() + " : is passed successfully.");
 
 	}		
 
