@@ -21,7 +21,9 @@ public class Base {
 	public static WebDriver driver;
 	public static HttpURLConnection connection;
 	//public static Logger logger;
-	public static String urlToCheck = "http://192.168.100.59/vspace/login";
+	//public static String urlToCheck = "http://192.168.100.59/vspace/login";
+	public static String urlToCheck = "http://www.google.com";
+
 	public static WebEventlistener listener;
 
 	public static void initialise() {
