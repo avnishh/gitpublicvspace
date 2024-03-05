@@ -26,7 +26,7 @@ public class Utilities extends Base {
 		String fileNam = fileName; 
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File sourceFile= ts.getScreenshotAs(OutputType.FILE);
-		File destFile = new File(System.getProperty("user.dir")+"\\Screenshots\\"+fileNam+".png");
+		File destFile = new File(System.getProperty("user.dir")+File.separator+"Screenshots"+File.separator+fileNam+".png");
 
 		try {
 			FileUtils.copyFile(sourceFile,destFile);
@@ -42,7 +42,10 @@ public class Utilities extends Base {
 	public static String readExcelCellData( String excelFileName, int rowNum, int cellNum) {
 		FileInputStream fs = null;
 		try {
-			fs = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\vspace\\qa\\testdata\\"+excelFileName+".xlsx");
+			//fs = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\vspace\\qa\\testdata\\"+excelFileName+".xlsx");
+			fs = new FileInputStream(System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator + "java" + File.separator + "com" + File.separator + "vspace" + File.separator + "qa" + File.separator + "testdata" + File.separator + excelFileName + ".xlsx");
+
+			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -70,7 +73,9 @@ public class Utilities extends Base {
 
 	public static int getRowNum(String data) {
 		try {
-			FileInputStream fs = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\vspace\\qa\\testdata\\"+"data.xlsx");
+		//	FileInputStream fs = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\vspace\\qa\\testdata\\"+"data.xlsx");
+			FileInputStream fs = new FileInputStream(System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator + "java" + File.separator + "com" + File.separator + "vspace" + File.separator + "qa" + File.separator + "testdata" + File.separator + "data.xlsx");
+
 			XSSFWorkbook book = new XSSFWorkbook(fs);     
 			XSSFSheet sheet = book.getSheetAt(0);
 			// Sheet sheet = workbook.getSheet(sheetName);
@@ -97,7 +102,9 @@ public class Utilities extends Base {
 		FileInputStream file = null;
 		XSSFWorkbook book = null; ;
 		try {
-			file = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\vspace\\qa\\testdata\\"+excelFileName+".xlsx");
+			//file = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\vspace\\qa\\testdata\\"+excelFileName+".xlsx");
+			file = new FileInputStream(System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator + "java" + File.separator + "com" + File.separator + "vspace" + File.separator + "qa" + File.separator + "testdata" + File.separator + excelFileName + ".xlsx");
+
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

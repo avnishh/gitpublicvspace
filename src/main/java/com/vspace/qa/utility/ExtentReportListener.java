@@ -48,8 +48,8 @@ public class ExtentReportListener extends Base implements ITestListener{
 	}
 
 	public void configureReport() {
-		String reportFileLocation = null;
-		String parentDirectoryPath = projectDirectory+"\\extentreport\\";
+		String reportFileLocation =   "extentreport"+File.separator+"index.html";
+		String parentDirectoryPath = projectDirectory+File.separator+"extentreport"+File.separator;
 		dtf = DateTimeFormatter.ofPattern("d MMM uuuu HH_mm_ss");
 		now = LocalDateTime.now();
 		//System.out.println(now.toLocalDate());
@@ -74,16 +74,26 @@ public class ExtentReportListener extends Base implements ITestListener{
 		}
 		
 		if(newFolder.exists()) {
-		reportFileLocation=projectDirectory+"\\extentreport\\"+folderName+"\\"+dtf.format(now)+" Report.html";
+		 reportFileLocation=projectDirectory+File.separator+"extentreport"+File.separator+folderName+File.separator+dtf.format(now)+" Report.html";
+			
 		}
+		
+		else {
+	        System.out.println("Folder does not exist. Unable to set reportFileLocation.");
+	       
+	    }
 
+		
+		
 		spark = new ExtentSparkReporter(reportFileLocation);
+	//	spark = new ExtentSparkReporter("logs"+File.separator+"xyz.html");
+
 		spark.config().setDocumentTitle("Vspace Automation Report");
 		spark.config().setReportName("Automation Test execution report");
 		spark.config().setTheme(Theme.STANDARD);
 		//spark.config().setTimeStampFormat("");
 		extent = new ExtentReports();
-		extent.setSystemInfo("os", "win7");
+	    extent.setSystemInfo("os", System.getProperty("os.name"));
 		extent.attachReporter(spark);
 		
 
@@ -135,7 +145,7 @@ public class ExtentReportListener extends Base implements ITestListener{
 
 		test.log(Status.FAIL, MarkupHelper.createLabel(er,ExtentColor.RED));
 		//test.fail(MediaEntityBuilder.createScreenCaptureFromPath(System.getProperty("user.dir")+"\\Screenshots\\"+Result.getName()+".png", "provide info").build());
-		test.log(Status.INFO,MediaEntityBuilder.createScreenCaptureFromPath(System.getProperty("user.dir")+"\\Screenshots\\"+Result.getName()+".png").build());
+		test.log(Status.INFO,MediaEntityBuilder.createScreenCaptureFromPath(System.getProperty("user.dir")+File.separator+"Screenshots"+File.separator+Result.getName()+".png").build());
 		test.log(Status.FAIL, t);
 
 		WebEventlistener.logger.info(Result.getName() + " : is Failed.");

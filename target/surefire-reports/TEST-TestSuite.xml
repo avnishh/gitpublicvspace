@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="46.504" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Automation\vspaceextent\target\test-classes;D:\Automation\vspaceextent\target\classes;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\avnish.kumar\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\avnish.kumar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\avnish.kumar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\avnish.kumar\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\avnish.kumar\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\avnish.kumar\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\avnish.kumar\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\avnish.kumar\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\avnish.kumar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\avnish.kumar\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\avnish.kumar\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\avnish.kumar\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\avnish.kumar\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\avnish.kumar\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\avnish.kumar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\avnish.kumar\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\avnish.kumar\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\avnish.kumar\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\avnish.kumar\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.0\log4j-core-2.22.0.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.0\log4j-api-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="D:\eclipse-jee-2023-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\avnish.kumar\AppData\Local\Temp\surefire9159806759371691848\surefirebooter-20240305112927477_3.jar C:\Users\avnish.kumar\AppData\Local\Temp\surefire9159806759371691848 2024-03-05T11-29-27_270-jvmRun1 surefire-20240305112927477_1tmp surefire_0-20240305112927477_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Automation\vspaceextent\target\test-classes;D:\Automation\vspaceextent\target\classes;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\avnish.kumar\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\avnish.kumar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\avnish.kumar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\avnish.kumar\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\avnish.kumar\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\avnish.kumar\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\avnish.kumar\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\avnish.kumar\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\avnish.kumar\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\avnish.kumar\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\avnish.kumar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\avnish.kumar\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\avnish.kumar\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\avnish.kumar\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\avnish.kumar\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\avnish.kumar\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\avnish.kumar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\avnish.kumar\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\avnish.kumar\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\avnish.kumar\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\avnish.kumar\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.0\log4j-core-2.22.0.jar;C:\Users\avnish.kumar\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.0\log4j-api-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\avnish.kumar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="D:\eclipse-jee-2023-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="D:\Automation\vspaceextent"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\avnish.kumar\AppData\Local\Temp\surefire9159806759371691848\surefirebooter-20240305112927477_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+9"/>
+    <property name="user.name" value="avnish.kumar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.9+9"/>
+    <property name="localRepository" value="C:\Users\avnish.kumar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\AVNISH~1.KUM\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="D:\Automation\vspaceextent"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\eclipse-jee-2023-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/eclipse-jee-2023-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;D:/eclipse-jee-2023-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\avnish.kumar\AppData\Local\Microsoft\WindowsApps;C:\Users\avnish.kumar\AppData\Local\Programs\Git\cmd;D:\eclipse-jee-2023-12-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.9+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="TC003_chckInvldPasswd_LoginTest" classname="com.vspace.qa.TestCases.LoginTest" time="2.08">
+    <system-out><![CDATA[11:29:36.190 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Opened.
+11:29:39.374 [main] INFO  com.vspace.qa.utility.WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+11:29:39.409 [main] INFO  com.vspace.qa.utility.WebEventlistener - Script waited for :PT3S: implicit wait
+11:29:39.616 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (0e6e03d9f66e6972d59f5b65d5f0cfa2)] -> id: email_id] is [Ljava.lang.CharSequence;@101a461c
+11:29:39.772 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (0e6e03d9f66e6972d59f5b65d5f0cfa2)] -> id: password] is [Ljava.lang.CharSequence;@47768e74
+11:29:40.639 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (0e6e03d9f66e6972d59f5b65d5f0cfa2)] -> xpath: //button[@type='submit']]: is clicked succesfully
+11:29:40.720 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (0e6e03d9f66e6972d59f5b65d5f0cfa2)] -> xpath: //div[text()=' Login details are not valid!! ']]: is displayed successfully.
+11:29:41.507 [main] INFO  com.vspace.qa.utility.WebEventlistener - TC003_chckInvldPasswd_LoginTest : is passed successfully.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="TC001_chckvldcredential_LoginTest" classname="com.vspace.qa.TestCases.LoginTest" time="2.413">
+    <system-out><![CDATA[11:29:41.663 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Closed 
+***********************************************************
+11:29:43.254 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Opened.
+11:29:44.347 [main] INFO  com.vspace.qa.utility.WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+11:29:44.372 [main] INFO  com.vspace.qa.utility.WebEventlistener - Script waited for :PT3S: implicit wait
+11:29:44.549 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (39e5e65f05e3dd178d66c0c3d02e57f4)] -> id: email_id] is [Ljava.lang.CharSequence;@30f28b5
+11:29:44.698 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (39e5e65f05e3dd178d66c0c3d02e57f4)] -> id: password] is [Ljava.lang.CharSequence;@5c3d4f05
+11:29:46.557 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (39e5e65f05e3dd178d66c0c3d02e57f4)] -> xpath: //button[@type='submit']]: is clicked succesfully
+11:29:46.626 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (39e5e65f05e3dd178d66c0c3d02e57f4)] -> class name: directryBtn]: is displayed successfully.
+11:29:46.785 [main] INFO  com.vspace.qa.utility.WebEventlistener - TC001_chckvldcredential_LoginTest : is passed successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="TC002_chckInvldEmail_LoginTest" classname="com.vspace.qa.TestCases.LoginTest" time="1.26">
+    <system-out><![CDATA[11:29:46.924 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Closed 
+***********************************************************
+11:29:48.477 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Opened.
+11:29:49.323 [main] INFO  com.vspace.qa.utility.WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+11:29:49.346 [main] INFO  com.vspace.qa.utility.WebEventlistener - Script waited for :PT3S: implicit wait
+11:29:49.526 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (a0216a19d03b2d8903be488c4471360f)] -> id: email_id] is [Ljava.lang.CharSequence;@61b60600
+11:29:49.672 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (a0216a19d03b2d8903be488c4471360f)] -> id: password] is [Ljava.lang.CharSequence;@3711c71c
+11:29:50.469 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (a0216a19d03b2d8903be488c4471360f)] -> xpath: //button[@type='submit']]: is clicked succesfully
+11:29:50.535 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (a0216a19d03b2d8903be488c4471360f)] -> xpath: //div[text()=' Login details are not valid!! ']]: is displayed successfully.
+11:29:50.606 [main] INFO  com.vspace.qa.utility.WebEventlistener - TC002_chckInvldEmail_LoginTest : is passed successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="TC005_chckblankpassword_LoginTest" classname="com.vspace.qa.TestCases.LoginTest" time="0.571">
+    <system-out><![CDATA[11:29:50.721 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Closed 
+***********************************************************
+11:29:52.365 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Opened.
+11:29:53.399 [main] INFO  com.vspace.qa.utility.WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+11:29:53.417 [main] INFO  com.vspace.qa.utility.WebEventlistener - Script waited for :PT3S: implicit wait
+11:29:53.592 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (c9c5548fc66f00ee095193a24e194058)] -> id: email_id] is [Ljava.lang.CharSequence;@5c82031b
+11:29:53.736 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (c9c5548fc66f00ee095193a24e194058)] -> id: password] is [Ljava.lang.CharSequence;@3e38c472
+11:29:53.819 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (c9c5548fc66f00ee095193a24e194058)] -> xpath: //button[@type='submit']]: is clicked succesfully
+11:29:53.887 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (c9c5548fc66f00ee095193a24e194058)] -> id: email_id]: is displayed successfully.
+11:29:53.989 [main] INFO  com.vspace.qa.utility.WebEventlistener - TC005_chckblankpassword_LoginTest : is passed successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="TC006_chckblankemailPassws_LoginTest" classname="com.vspace.qa.TestCases.LoginTest" time="0.543">
+    <system-out><![CDATA[11:29:54.124 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Closed 
+***********************************************************
+11:29:55.724 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Opened.
+11:29:56.337 [main] INFO  com.vspace.qa.utility.WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+11:29:56.356 [main] INFO  com.vspace.qa.utility.WebEventlistener - Script waited for :PT3S: implicit wait
+11:29:56.513 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (e4920a2ebc599cc25f2c23d5d488add7)] -> id: email_id] is [Ljava.lang.CharSequence;@7fc7152e
+11:29:56.653 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (e4920a2ebc599cc25f2c23d5d488add7)] -> id: password] is [Ljava.lang.CharSequence;@766b6d02
+11:29:56.733 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (e4920a2ebc599cc25f2c23d5d488add7)] -> xpath: //button[@type='submit']]: is clicked succesfully
+11:29:56.797 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (e4920a2ebc599cc25f2c23d5d488add7)] -> id: email_id]: is displayed successfully.
+11:29:56.899 [main] INFO  com.vspace.qa.utility.WebEventlistener - TC006_chckblankemailPassws_LoginTest : is passed successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="TC004_chckblankemail_LoginTest" classname="com.vspace.qa.TestCases.LoginTest" time="0.51">
+    <system-out><![CDATA[11:29:57.038 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Closed 
+***********************************************************
+11:29:58.716 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Opened.
+11:29:59.651 [main] INFO  com.vspace.qa.utility.WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+11:29:59.672 [main] INFO  com.vspace.qa.utility.WebEventlistener - Script waited for :PT3S: implicit wait
+11:29:59.830 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (bacf959bd648c033c0e7247113455f5d)] -> id: email_id] is [Ljava.lang.CharSequence;@d16209e
+11:29:59.971 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (bacf959bd648c033c0e7247113455f5d)] -> id: password] is [Ljava.lang.CharSequence;@76af51d6
+11:30:00.054 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (bacf959bd648c033c0e7247113455f5d)] -> xpath: //button[@type='submit']]: is clicked succesfully
+11:30:00.117 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (bacf959bd648c033c0e7247113455f5d)] -> id: email_id]: is displayed successfully.
+11:30:00.181 [main] INFO  com.vspace.qa.utility.WebEventlistener - TC004_chckblankemail_LoginTest : is passed successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="TC007_opportunityBtn_clcksuccess" classname="com.vspace.qa.TestCases.OpportunityListingTest" time="1.849">
+    <system-out><![CDATA[11:30:00.306 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Closed 
+***********************************************************
+11:30:02.001 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Opened.
+11:30:02.959 [main] INFO  com.vspace.qa.utility.WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+11:30:02.978 [main] INFO  com.vspace.qa.utility.WebEventlistener - Script waited for :PT3S: implicit wait
+11:30:03.145 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (f4c20eb90e2d7d47ae4161fcff39c8c4)] -> id: email_id] is [Ljava.lang.CharSequence;@485deee1
+11:30:03.286 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (f4c20eb90e2d7d47ae4161fcff39c8c4)] -> id: password] is [Ljava.lang.CharSequence;@782cc5fa
+11:30:05.418 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (f4c20eb90e2d7d47ae4161fcff39c8c4)] -> xpath: //button[@type='submit']]: is clicked succesfully
+11:30:05.486 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (f4c20eb90e2d7d47ae4161fcff39c8c4)] -> class name: directryBtn]: is displayed successfully.
+11:30:06.413 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (f4c20eb90e2d7d47ae4161fcff39c8c4)] -> class name: directryBtn]: is clicked succesfully
+11:30:07.271 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (f4c20eb90e2d7d47ae4161fcff39c8c4)] -> xpath: //div[@class='col-sm-4 col-md-3']//li[3]]: is clicked succesfully
+11:30:07.336 [main] INFO  com.vspace.qa.utility.WebEventlistener - TC007_opportunityBtn_clcksuccess : is passed successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="TC008_oppListcountChck" classname="com.vspace.qa.TestCases.OpportunityListingTest" time="1.877">
+    <system-out><![CDATA[11:30:07.483 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Closed 
+***********************************************************
+11:30:09.367 [main] INFO  com.vspace.qa.utility.WebEventlistener - Browser Opened.
+11:30:10.217 [main] INFO  com.vspace.qa.utility.WebEventlistener - Navigated to: http://192.168.100.59/vspace/login Successfully.
+11:30:10.235 [main] INFO  com.vspace.qa.utility.WebEventlistener - Script waited for :PT3S: implicit wait
+11:30:10.415 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (4d7560a89bdef5a6540f67b3b86d75bb)] -> id: email_id] is [Ljava.lang.CharSequence;@150f41b9
+11:30:10.562 [main] INFO  com.vspace.qa.utility.WebEventlistener - Value passed in [[ChromeDriver: chrome-headless-shell on windows (4d7560a89bdef5a6540f67b3b86d75bb)] -> id: password] is [Ljava.lang.CharSequence;@6b9a1205
+11:30:11.952 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (4d7560a89bdef5a6540f67b3b86d75bb)] -> xpath: //button[@type='submit']]: is clicked succesfully
+11:30:12.017 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (4d7560a89bdef5a6540f67b3b86d75bb)] -> class name: directryBtn]: is displayed successfully.
+11:30:12.964 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (4d7560a89bdef5a6540f67b3b86d75bb)] -> class name: directryBtn]: is clicked succesfully
+11:30:13.574 [main] INFO  com.vspace.qa.utility.WebEventlistener - [[ChromeDriver: chrome-headless-shell on windows (4d7560a89bdef5a6540f67b3b86d75bb)] -> xpath: //div[@class='col-sm-4 col-md-3']//li[3]]: is clicked succesfully
+The no. of items in oppurtunity is 1
+Firm Record
+11:30:13.894 [main] INFO  com.vspace.qa.utility.WebEventlistener - TC008_oppListcountChck : is passed successfully.
+]]></system-out>
+  </testcase>
+</testsuite>
