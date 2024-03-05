@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-05T12:34:09 IST" name="vspace_TestSuite" finished-at="2024-03-05T12:35:05 IST" duration-ms="55979">
+  <suite started-at="2024-03-05T12:40:03 IST" name="vspace_TestSuite" finished-at="2024-03-05T12:40:18 IST" duration-ms="15128">
     <groups>
     </groups>
-    <test started-at="2024-03-05T12:34:09 IST" name="vspace_TestProject" finished-at="2024-03-05T12:35:05 IST" duration-ms="55979">
+    <test started-at="2024-03-05T12:40:03 IST" name="vspace_TestProject" finished-at="2024-03-05T12:40:18 IST" duration-ms="15128">
       <class name="com.vspace.qa.TestCases.testing">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.testing@efde75f]" started-at="2024-03-05T12:34:10 IST" name="initialization" finished-at="2024-03-05T12:34:15 IST" duration-ms="5541" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.testing@e8df99a]" started-at="2024-03-05T12:40:04 IST" name="initialization" finished-at="2024-03-05T12:40:10 IST" duration-ms="6762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="TC001_chckvldcredential_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.testing@efde75f]" started-at="2024-03-05T12:34:15 IST" name="TC001_chckvldcredential_LoginTest" finished-at="2024-03-05T12:34:15 IST" duration-ms="132" status="PASS">
+        <test-method signature="TC001_chckvldcredential_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.testing@e8df99a]" started-at="2024-03-05T12:40:10 IST" name="TC001_chckvldcredential_LoginTest" finished-at="2024-03-05T12:40:10 IST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_chckvldcredential_LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.testing@efde75f]" started-at="2024-03-05T12:34:16 IST" name="tearDown" finished-at="2024-03-05T12:34:16 IST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.testing@e8df99a]" started-at="2024-03-05T12:40:11 IST" name="tearDown" finished-at="2024-03-05T12:40:11 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.testing@efde75f]" started-at="2024-03-05T12:34:16 IST" name="initialization" finished-at="2024-03-05T12:34:21 IST" duration-ms="4731" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.vspace.qa.TestCases.testing@e8df99a]" started-at="2024-03-05T12:40:11 IST" name="initialization" finished-at="2024-03-05T12:40:16 IST" duration-ms="4613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="TC002_chckInvldEmail_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.testing@efde75f]" started-at="2024-03-05T12:34:21 IST" name="TC002_chckInvldEmail_LoginTest" finished-at="2024-03-05T12:35:05 IST" duration-ms="44364" status="PASS">
+        <test-method signature="TC002_chckInvldEmail_LoginTest()[pri:0, instance:com.vspace.qa.TestCases.testing@e8df99a]" started-at="2024-03-05T12:40:16 IST" name="TC002_chckInvldEmail_LoginTest" finished-at="2024-03-05T12:40:18 IST" duration-ms="2235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002_chckInvldEmail_LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.testing@efde75f]" started-at="2024-03-05T12:35:05 IST" name="tearDown" finished-at="2024-03-05T12:35:05 IST" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vspace.qa.TestCases.testing@e8df99a]" started-at="2024-03-05T12:40:18 IST" name="tearDown" finished-at="2024-03-05T12:40:18 IST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,15 +1,15 @@
-[INFO ] 2024-03-05 12:34:12.807 - Browser Opened.
-[INFO ] 2024-03-05 12:34:15.526 - Navigated to: http://www.google.com Successfully.
-[INFO ] 2024-03-05 12:34:15.576 - Script waited for :PT3S: implicit wait
-[INFO ] 2024-03-05 12:34:15.709 - Value passed in [[ChromeDriver: chrome-headless-shell on windows (18def31b45d8d479397c8085e82c5d1d)] -> xpath: //textarea[@id='APjFqb']] is [Ljava.lang.CharSequence;@3f018494
-[INFO ] 2024-03-05 12:34:16.388 - TC001_chckvldcredential_LoginTest : is passed successfully.
-[INFO ] 2024-03-05 12:34:16.497 - Browser Closed 
+[INFO ] 2024-03-05 12:40:07.870 - Browser Opened.
+[INFO ] 2024-03-05 12:40:10.815 - Navigated to: http://www.google.com Successfully.
+[INFO ] 2024-03-05 12:40:10.851 - Script waited for :PT3S: implicit wait
+[INFO ] 2024-03-05 12:40:10.996 - Value passed in [[ChromeDriver: chrome-headless-shell on windows (dc12a052f9eea5addd0bf3480af3af04)] -> xpath: //textarea[@id='APjFqb']] is [Ljava.lang.CharSequence;@53d13cd4
+[INFO ] 2024-03-05 12:40:11.730 - TC001_chckvldcredential_LoginTest : is passed successfully.
+[INFO ] 2024-03-05 12:40:11.837 - Browser Closed 
 ***********************************************************
-[INFO ] 2024-03-05 12:34:18.247 - Browser Opened.
-[INFO ] 2024-03-05 12:34:21.191 - Navigated to: http://www.google.com Successfully.
-[INFO ] 2024-03-05 12:34:21.230 - Script waited for :PT3S: implicit wait
-[INFO ] 2024-03-05 12:34:21.348 - Value passed in [[ChromeDriver: chrome-headless-shell on windows (8a979ab45ff94d6181062f8ee0f2ea39)] -> xpath: //textarea[@id='APjFqb']] is [Ljava.lang.CharSequence;@7e52a26b
-[INFO ] 2024-03-05 12:35:05.593 - [[ChromeDriver: chrome-headless-shell on windows (8a979ab45ff94d6181062f8ee0f2ea39)] -> xpath: //div[@class='FPdoLc lJ9FBc']//input[@name='btnK']]: is clicked succesfully
-[INFO ] 2024-03-05 12:35:05.676 - TC002_chckInvldEmail_LoginTest : is passed successfully.
-[INFO ] 2024-03-05 12:35:05.779 - Browser Closed 
+[INFO ] 2024-03-05 12:40:13.605 - Browser Opened.
+[INFO ] 2024-03-05 12:40:16.416 - Navigated to: http://www.google.com Successfully.
+[INFO ] 2024-03-05 12:40:16.455 - Script waited for :PT3S: implicit wait
+[INFO ] 2024-03-05 12:40:16.570 - Value passed in [[ChromeDriver: chrome-headless-shell on windows (9ef07be7a4a7ebf5bf9228cd9abe14c9)] -> xpath: //textarea[@id='APjFqb']] is [Ljava.lang.CharSequence;@5efeb117
+[INFO ] 2024-03-05 12:40:18.691 - [[ChromeDriver: chrome-headless-shell on windows (9ef07be7a4a7ebf5bf9228cd9abe14c9)] -> xpath: //div[@class='FPdoLc lJ9FBc']//input[@name='btnK']]: is clicked succesfully
+[INFO ] 2024-03-05 12:40:18.769 - TC002_chckInvldEmail_LoginTest : is passed successfully.
+[INFO ] 2024-03-05 12:40:18.855 - Browser Closed 
 ***********************************************************
